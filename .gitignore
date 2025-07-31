@@ -8,3 +8,21 @@ __pycache__/
 
 # Ignore VSCode folders
 .vscode/
+
+# Ignore environment variables and virtual environments in graphrag
+graphrag/.env
+graphrag/venv/
+graphrag/*/.env
+graphrag/*/venv/
+
+# Ignore node_modules and other build artifacts in graphrag
+graphrag/*/node_modules/
+graphrag/*/.DS_Store
+graphrag/.DS_Store
+
+# Ignore build outputs and logs
+graphrag/*/build/
+graphrag/*/dist/
+graphrag/*/logs/
+graphrag/*/*.log
+
